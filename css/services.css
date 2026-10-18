@@ -45,11 +45,11 @@ img{
         padding :0.625rem  1.25rem;
         border-radius: 1.25rem;
         border-color: black;
-        &:focus-visible,
-        &:hover{
-            cursor: pointer;
-            background-color: #2E6B19;
-        }
+            &:focus-visible,
+            &:hover{
+                cursor: pointer;
+                background-color: #2E6B19;
+            }
     }
 }
 }
