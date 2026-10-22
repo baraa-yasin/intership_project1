@@ -1,186 +1,172 @@
+
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>المدونة والمقالات اللوجستية - SwiftShift</title>
+    <link rel="stylesheet" href="../css/blog.css">
+    <meta name="description" content="Learn how to build a modern web application using React and Firebase.">
+
+    <title>Building a Modern Web App | SwiftShift Blog</title>
 </head>
+
 <body>
-    <header>
-        <h2>SwiftShift</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">الرئيسة</a></li>
-                <li><a href="about.html">من نحن</a></li>
-                <li><a href="services.html">الخدمات</a></li>
-                <li><a href="fleet.html">الأسطول</a></li>
-                <li><a href="blog.html">المدونة</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
-            </ul>
-            <button>احجز نقلة</button>
-        </nav>
-    </header>
-
     <main>
-        <!-- قسم الهيرو/البحث -->
-        <section>
-            <article>
-                <p>مدونة النقل الذكي</p>
-                <h1>دليل الانتقال السلس، مقالات ترتقي بتجربة مسكنك.</h1>
-                <p>نصائح متخصصة من خبراء لوجستيات الأثاث والعناية بالقطع الثمينة، لضمان تجربة انتقال خالية تماماً من الفوضى والإجهاد.</p>
-                
-                <!-- أداة البحث -->
-                <form>
-                    <label>ابحث في المقالات والأدلة</label>
-                    <input type="search" placeholder="ابحث عن: تغليف التحف، نقل ذكي...">
-                    <button type="submit">بحث</button>
-                </form>
-            </article>
 
-            <!-- تصنيفات المقالات -->
-            <nav>
-                <ul>
-                    <li><a href="#">جميع المقالات</a></li>
-                    <li><a href="#">نصائح التغليف</a></li>
-                    <li><a href="#">النقل الذكي</a></li>
-                    <li><a href="#">الأمان والتأمين</a></li>
-                    <li><a href="#">تخطيط المساحات</a></li>
-                </ul>
-            </nav>
-        </section>
+        <div class="blog-layout">
 
-        <!-- المقال الرئيسي المتميز -->
-        <section>
-            <article>
-                <p>مقال رئيسي • نصائح التغليف • 5 دقائق قراءة</p>
-                <h2>أسرار التعامل مع التحف واللوحات الفنية: كيف ينقل المحترفون المقتنيات النادرة دون أدنى خدش؟</h2>
-                <p>تتطلب الأعمال الفنية والمرايا المذهبة بروتوكول تغليف طبقي خاص يجمع بين العزل الهوائي، والتدعيم الزاوي الصلب، وموازنة الحرارة أثناء الشحن. نلخص لك تجارب فنيي سويفت شيفت في 4 قواعد ذهبية.</p>
-                
-                <div>
-                    <img width="50" height="50" src="../assets/images/author-samer.png" alt="م. سامر القحطاني">
+            <!-- Blog Article -->
+            <article class="a1">
+
+                <header>
+                    <p>Development</p>
+
+                    <h1>Building a Modern Web App with React and Firebase</h1>
+
                     <div>
-                        <h3>م. سامر القحطاني</h3>
-                        <p>رئيس قسم حماية المنقولات</p>
+                        <time datetime="2025-05-12">May 12, 2025</time>
+                        <span>By Baraa Yasin</span>
+                        <span>8 min read</span>
                     </div>
-                </div>
+                </header>
 
-                <a href="blog-details.html">قراءة المقال</a>
-                <img src="../assets/images/art-handling-hero.png" alt="تغليف ونقل المقتنيات الفنية">
+                <figure>
+                    <img
+                        src="../assets/images/screen1.png"
+                        alt="Laptop displaying code on a desk beside a plant"
+                    >
+
+                </figure>
+
+                <!-- Article Sections -->
+                <section>
+                    <h2>Introduction</h2>
+
+                    <p>
+                        Building a modern web application can feel overwhelming
+                        at first, especially when combining a frontend framework
+                        like React with a backend service like Firebase.
+                        In this post, I will walk you through the main steps
+                        I followed to build a simple yet powerful web app.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Why React and Firebase?</h2>
+
+                    <p>
+                        React gives you a flexible and component-based way to
+                        build user interfaces, while Firebase provides a secure
+                        and scalable backend with authentication, database,
+                        and hosting services in one place.
+                    </p>
+                </section>
+
+
+
+                <section>
+                    <h2>Final Thoughts</h2>
+
+                    <p>
+                        This is a simple overview of how to get started.
+                        The full project can include more features like
+                        real-time data, error handling, and a clean user
+                        interface. Feel free to check the complete code
+                        on GitHub.
+                    </p>
+                </section>
+
+                <!-- Share Article -->
+                <footer>
+                    <p>Share this post:</p>
+
+                    <a href="#" aria-label="Share on X">X</a>
+                    <a href="#" aria-label="Share on LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Share on Facebook">Facebook</a>
+                </footer>
+
             </article>
-        </section>
 
-        <!-- شبكة أحدث المقالات -->
-        <section>
-            <p>تحديثات أسبوعية لتسهيل كل مرحلة من رحلة انتقالك</p>
-            <h2>أحدث الإرشادات والمقالات</h2>
+            <!-- Related Posts -->
+            <aside aria-labelledby="related-heading">
 
-            <div>
-                <!-- مقال 1 -->
-                <article>
-                    <img src="../assets/images/blog-boxes.png" alt="طريقة الترقيم الذكي للصناديق">
-                    <p>نصائح التغليف • 12 مايو 2025</p>
-                    <h3>طريقة الترقيم الذكي للصناديق: كيف ترتب محتويات منزلك بحسب الغرف؟</h3>
-                    <p>توزيع الأولويات واستخدام الترميز اللوني لكل جناح سكني يوفر أكثر من 60% من وقت تفريغ المحتويات في مسكنك الجديد.</p>
-                    <p>قراءة 4 دقائق</p>
-                    <a href="blog-details.html">التفاصيل</a>
+                <h2 id="related-heading">Related Posts</h2>
+
+                <article class="as1">
+                    <img
+                        src="../assets/images/unnamed (9).jpg"
+                        alt="Laptop on a desk"
+                      
+                    >
+
+                    <div>
+                        <p>Web Development</p>
+                        <h3>
+                            <a href="#">10 JavaScript Tips Every Developer Should Know</a>
+                        </h3>
+                        <time datetime="2025-04-28">Apr 28, 2025</time>
+                    </div>
                 </article>
 
-                <!-- مقال 2 -->
-                <article>
-                    <img src="../assets/images/blog-truck.png" alt="أنظمة التثبيت الهيدروليكي">
-                    <p>النقل الذكي • 8 مايو 2025</p>
-                    <h3>أنظمة التثبيت الهيدروليكي في أسطول النقل: كيف نحمي الأجهزة الحساسة؟</h3>
-                    <p>الاهتزازات أثناء القيادة قد تؤثر على الأجهزة الإلكترونية والشاشات الكبيرة. استكشف كيف تحافظ شاحنات الشحن المعزول على استقرار الحمولة.</p>
-                    <p>قراءة 6 دقائق</p>
-                    <a href="blog-details.html">التفاصيل</a>
+                <article class="as1">
+                    <img
+                        src="../assets/images/unnamed (9).jpg"
+                        alt="Mobile application displayed on a phone"
+                     
+                    >
+
+                    <div>
+                        <p>Mobile Development</p>
+                        <h3>
+                            <a href="#">Getting Started with React Native</a>
+                        </h3>
+                        <time datetime="2025-04-15">Apr 15, 2025</time>
+                    </div>
                 </article>
 
-                <!-- مقال 3 -->
-                <article>
-                    <img src="../assets/images/blog-insurance.png" alt="دليل وثائق تأمين الشحنات">
-                    <p>الأمان والتأمين • 3 مايو 2025</p>
-                    <h3>دليل وثائق تأمين الشحنات المنزلية: ما الذي يجب التحقق منه قبل التوقيع؟</h3>
-                    <p>فهم بنود التغطية الشاملة ضد الحوادث الطارئة والمسؤولية اللوجستية الكاملة، لتضمن راحة بالك التامة أثناء الانتقال لمدينة أخرى.</p>
-                    <p>قراءة 7 دقائق</p>
-                    <a href="blog-details.html">التفاصيل</a>
+                <article class="as1">
+                    <img
+                        src="../assets/images/unnamed (9).jpg"
+                        alt="Code displayed on a computer screen"
+                        width="120"
+                    >
+
+                    <div>
+                        <p>Tools &amp; Productivity</p>
+                        <h3>
+                            <a href="#">Best VS Code Extensions for Web Development</a>
+                        </h3>
+                        <time datetime="2025-04-02">Apr 2, 2025</time>
+                    </div>
                 </article>
 
-                <!-- مقال 4 -->
-                <article>
-                    <img src="../assets/images/blog-furniture.png" alt="تفكيك وإعادة تركيب الدواليب">
-                    <p>نصائح التغليف • 27 أبريل 2025</p>
-                    <h3>تفكيك وإعادة تركيب الدواليب الضخمة: إرشادات الفنيين لتفادي اختلال المفصلات</h3>
-                    <p>خطوات حفظ المسامير والمقابض في أكياس مخصصة، وضمان استقامة الهيكل الخشبي عند التثبيت في الموقع الجديد دون تلفيات.</p>
-                    <p>قراءة 5 دقائق</p>
-                    <a href="blog-details.html">التفاصيل</a>
+                <article class="as1">
+                    <img
+                        src="../assets/images/unnamed (9).jpg"
+                        alt="Plant on a desk"
+                        
+                    >
+
+                    <div>
+                        <p>Firebase</p>
+                        <h3>
+                            <a href="#">Firebase Authentication Made Simple</a>
+                        </h3>
+                        <time datetime="2025-03-20">Mar 20, 2025</time>
+                    </div>
                 </article>
 
-                <!-- مقال 5 -->
-                <article>
-                    <img src="../assets/images/blog-timing.png" alt="اختيار التوقيت المثالي للنقل">
-                    <p>النقل الذكي • 21 أبريل 2025</p>
-                    <h3>اختيار التوقيت المثالي للنقل: لماذا تفضل فرقنا فترات الصباح الباكر؟</h3>
-                    <p>كيف يساعد تجنب ساعات الذروة والحرارة المرتفعة في حماية المواد الحساسة وتسهيل إنزال المنقولات براحة وسلاسة.</p>
-                    <p>قراءة 3 دقائق</p>
-                    <a href="blog-details.html">التفاصيل</a>
-                </article>
+            </aside>
 
-                <!-- بطاقة تحميل أداة/قائمة -->
-                <article>
-                    <p>أداة مجانية للتحميل</p>
-                    <h3>قائمة تفقد الانتقال الكاملة (PDF جاهز للطباعة)</h3>
-                    <p>جدول زمني مقسم على 4 أسابيع قبل موعد النقل يغطي تحديث العناوين، تفريغ الثلاجة، وحقيبة الطوارئ لليلة الأولى.</p>
-                    <button>تحميل القائمة التفاعلية</button>
-                </article>
-            </div>
+        </div>
 
-            <button>تحميل مقالات إضافية</button>
-        </section>
-
-        <!-- الاشتراك في النشرة البريدية -->
-        <section>
-            <article>
-                <p>النشرة البريدية المتخصصة</p>
-                <h2>احصل على أفضل أدلة السكن والانتقال مباشرة إلى بريدك</h2>
-                <p>لا نرسل إعلانات عشوائية، فقط نصائح موثوقة من خبراء اللوجستيات مرة واحدة شهرياً.</p>
-
-                <form>
-                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
-                    <button type="submit">اشترك الآن</button>
-                </form>
-                <p>يمكنك إلغاء الاشتراك في أي وقت بنقرة واحدة.</p>
-            </article>
-        </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <section>
-            <h3>SwiftShift</h3>
-            <p>خدمة نقل أثاث احترافية توفر تجربة مريحة وخالية من التوتر بأعلى معايير الأمان والتنظيم اللوجستي.</p>
-        </section>
-
-        <section>
-            <h3>الروابط السريعة</h3>
-            <a href="index.html">الرئيسية</a>
-            <a href="about.html">من نحن</a>
-            <a href="services.html">خدمات النقل</a>
-            <a href="blog.html">المدونة والمقالات</a>
-        </section>
-
-        <section>
-            <h3>الشروط والأمان</h3>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Service</a>
-            <a href="#">Cargo Insurance</a>
-            <a href="fleet.html">Fleet Tracking</a>
-        </section>
-
-        <section>
-            <h3>تواصل معنا</h3>
-            <p>فريق خدمة العملاء متواجد على مدار الساعة لجدولة مواعيدك واستقبال استفساراتك اللوجستية.</p>
-            <p>+966 800 123 4567</p>
-            <p>الرقم المجاني الموحد</p>
-        </section>
+        <p>&copy; 2025 SwiftShift. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+```
