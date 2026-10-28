@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>fleet</title>
 </head>
 <body>
     <header>
-        <h2>SwiftShift</h2>
+    
         <nav>
+            <h2>SwiftShift</h2>
             <ul>
                 <li><a href="index.html">الرئيسة</a></li>
                 <li><a href="about.html">من نحن</a></li>
@@ -22,39 +24,37 @@
     </header>
     <main>
 
-        <section>
-        
-            <article>
-                <h1>أسطول متخصص لنقل سلس، بدقة متناهية وأمان مطلق.</h1>
-                <p>نجمع بين التقنية اللوجستية الحديثة والأسطول المجهز بأحدث أنظمة التثبيت الهيدروليكي والتتبع الحي لنضمن وصول ممتلكاتك وبصائرك كما كانت دون خدش واحد.</p>
-            </article>
-        
-            <button>استعراض فئات الشاحنات</button>
-            <button>سوابق الأعمال والمشاريع</button>
-        
-            <section>
+        <section class="hero">
+            <section class="right">
                 <article>
-                    <h3>140+</h3>
-                    <p>شاحنة مجهزة بالكامل</p>
+                    <h1>أسطول متخصص لنقل سلس، بدقة متناهية وأمان مطلق.</h1>
+                    <p>نجمع بين التقنية اللوجستية الحديثة والأسطول المجهز بأحدث أنظمة التثبيت الهيدروليكي والتتبع الحي لنضمن وصول ممتلكاتك وبصائرك كما كانت دون خدش واحد.</p>
                 </article>
-        
-                <article>
-                    <h3>99.8%</h3>
-                    <p>معدل سلامة المنقولات</p>
-                </article>
-        
-                <article>
-                    <h3>15 دقيقة</h3>
-                    <p>متوسط استجابة التحميل</p>
-                </article>
+            
+                <button>استعراض فئات الشاحنات</button>        
+                <section class="statistics">
+                    <article>
+                        <h3>140+</h3>
+                        <p>شاحنة مجهزة بالكامل</p>
+                    </article>
+            
+                    <article>
+                        <h3>99.8%</h3>
+                        <p>معدل سلامة المنقولات</p>
+                    </article>
+            
+                    <article>
+                        <h3>15 دقيقة</h3>
+                        <p>متوسط استجابة التحميل</p>
+                    </article>
+                </section>
+            
+            <!-- <article>
+                    <img height="50" width="50" src="../assets/images/tower-broadcast-solid.png" alt="signal icon">
+                    <h3>نظام المراقبة الذكي</h3>
+                    <p>مراقبة درجات الحرارة والاهتزاز</p>
+                </article>--> 
             </section>
-        
-            <article>
-                <img height="50" width="50" src="../assets/images/tower-broadcast-solid.png" alt="signal icon">
-                <h3>نظام المراقبة الذكي</h3>
-                <p>مراقبة درجات الحرارة والاهتزاز</p>
-            </article>
-        
             <img src="../assets/images/unnamed (4).jpg" alt="fleet img">
         </section>
 
@@ -65,10 +65,10 @@
                 <p>جميع مركباتنا مطابقة لأعلى معايير الجودة العالمية لتشمل: تجهيزات بحسابات دعم المسار وأثاث الأمان ضد مخاطر الطريق.</p>
             </article>
         
-            <section>
+            <section class="cards">
 
-                <article>
-                    <img height="200" width="300" src="../assets/images/unnamed (6).jpg" alt="box truck">
+                <div class="card">
+                    <img height="200" width="250" src="../assets/images/unnamed (6).jpg" alt="box truck">
                     <img height="50" width="50" src="../assets/images/truck.png" alt="truck icon">
                     <h3>الشاحنات المغلقة (Box Trucks)</h3>
                     <p>شاحنات مصممة مبردة ومغلقة بالكامل لحماية الأثاث المنزلي، المصانع الحساسة والأجهزة الإلكترونية من الأتربة والغبار والعوامل الجوية.</p>
@@ -84,11 +84,11 @@
                     </article>
         
                     <button>حجز هذه الفئة</button>
-                </article>
+                </div>
         
 
-                <article>
-                    <img height="200" width="300" src="../assets/images/unnamed (7).jpg" alt="light truck">
+                <div  class="card">
+                    <img height="200" width="250" src="../assets/images/unnamed (7).jpg" alt="light truck">
                     <img height="50" width="50" src="../assets/images/caravan-solid.png"truck icon">
                     <h3>الشاحنات الخفيفة (Light Trucks)</h3>
                     <p>مثالية للتوصيل السريع داخل شوارع المدن الفرعية، الشقق الفندقية، والمكاتب الصغيرة، مع توفير فرق تحميل ومدربين محترفين لرفع الأثاث.</p>
@@ -104,11 +104,11 @@
                     </article>
         
                     <button>حجز هذه الفئة</button>
-                </article>
+                </div>
         
 
-                <article>
-                    <img height="200" width="300" src="../assets/images/unnamed (8).jpg" alt="crane">
+                <div  class="card">
+                    <img height="200" width="250" src="../assets/images/unnamed (8).jpg" alt="crane">
                     <img height="50" width="50" src="../assets/images/up-down-solid.png" alt="crane icon">
                     <h3>الرافعات الهيدروليكية وأوناش</h3>
                     <p>حلول رفع متطورة لتحميل وتنزيل الأثاث والمعدات الثقيلة عبر الواجهات والمنافذ العليا، لضمان رفع القطع الثقيلة بأمان.</p>
@@ -127,7 +127,7 @@
                     </article>
         
                     <button>حجز هذه الفئة</button>
-                </article>
+                </div>
             </section>
         </section>
 
@@ -137,30 +137,30 @@
                 <p>لاكتفي بالقالب الموحد، بل نضع بكل شاحنة منظومة القياس الإلكتروني وجميع تجهيزاتنا خالية تماماً لتغطية الصدمات والاهتزازات.</p>
             </article>
         
-            <section>
+            <section class="cards">
 
-                <article>
+                <article class="card">
                     <img height="50" width="50" src="../assets/images/location-crosshairs-solid.png" alt="target icon">
                     <h3>تتبع فوري ومسار حي</h3>
                     <p>متابعة لحظية عبر الأنظمة، مع تحديثات دقيقة لموقع المركبة، مع رؤية المسارات، وتوثيق الوصول.</p>
                 </article>
         
 
-                <article>
+                <article class="card">
                     <img height="50" width="50" src="../assets/images/shield-heart-solid.png" alt="shield icon">
                     <h3>تأمين شامل للشحن</h3>
                     <p>بوابة تأمين شاملة تغطي كافة المنقولات ضد مخاطر الطرق والتلفيات، وتغطي كافة الاحتمالات.</p>
                 </article>
         
 
-                <article>
+                <article class="card">
                     <img height="50" width="50" src="../assets/images/temperature-low-solid.png" alt="thermometer icon">
                     <h3>تحوّل حراري وترطيب</h3>
                     <p>مستشعرات دقيقة لمراقبة الحرارة والرطوبة أثناء الرحلة لضمان سلامة التحف، والقطع الحساسة.</p>
                 </article>
         
 
-                <article>
+                <article class="card">
                     <img height="50" width="50" src="../assets/images/address-card-regular.png" alt="id icon">
                     <h3>سائقون وفنيون مرخصون</h3>
                     <p>طاقم مدرب على أعلى معايير السلامة والسرية، خاضعون لاختبارات دورية، ومراجعة دقيقة لخلفياتهم.</p>
@@ -175,9 +175,9 @@
                 <p>+ 4,800 مشروع منجز بنجاح</p>
             </article>
         
-            <section>
+            <section class="cards">
 
-                <article>
+                <article class="card">
                     <img height="200" width="300" src="../assets/images/unnamed (9).jpg" alt="villa">
                     <p>قطاع السكني الفاخر</p>
                     <p>جدة - حي الشاطئ</p>
@@ -190,7 +190,7 @@
                 </article>
         
 
-                <article>
+                <article class="card">
                     <img height="200" width="300" src="../assets/images/unnamed (10).jpg" alt="office">
                     <p>الرياض - مركز الأعمال ديبلوماتيك</p>
                     <p>قطاع المكاتب والشركات</p>
@@ -203,7 +203,7 @@
                 </article>
         
 
-                <article>
+                <article  class="card">
                     <img height="200" width="300" src="../assets/images/unnamed (11).jpg" alt="lab">
                     <p>قطاع الرعاية الصحية</p>
                     <p>الدمام - المدينة الصناعية</p>

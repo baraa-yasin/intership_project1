@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>اتصل بنا - SwiftShift</title>
 </head>
 <body>
     <header>
-        <h2>SwiftShift</h2>
+
         <nav>
+            <h2>SwiftShift</h2>
             <ul>
                 <li><a href="index.html">الرئيسة</a></li>
                 <li><a href="about.html">من نحن</a></li>
@@ -22,8 +24,7 @@
     </header>
 
     <main>
-        <!-- قسم الهيرو/العنوان الرئيسي -->
-        <section>
+        <section >
             <article>
                 <p>خدمة النقل الفندقي ونقل الأثاث المتكامل</p>
                 <h1>نحن هنا لتسهيل حركتك، بكل هدوء وعناية فائقة.</h1>
@@ -31,31 +32,29 @@
             </article>
         </section>
 
-        <!-- قسم التفاعل الرئيسي: النموذج + معلومات التواصل -->
-        <section>
-            <!-- نموذج أرسل استفسارك -->
-            <section>
+        <section  >
+            <section class="form">
                 <h2>أرسل استفسارك مباشرة</h2>
                 <p>املأ التفاصيل أدناه وسيتواصل معك منسق الرحلات الميدانية خلال أقل من 15 دقيقة.</p>
 
                 <form>
                     <div>
-                        <label>الاسم الكامل *</label>
+                        <label>الاسم الكامل :</label>
                         <input type="text" placeholder="عبدالعزيز الراشد" required>
                     </div>
 
                     <div>
-                        <label>رقم الجوال *</label>
+                        <label>رقم الجوال :</label>
                         <input type="tel" placeholder="+966 5X XXX XXXX" required>
                     </div>
 
                     <div>
-                        <label>البريد الإلكتروني</label>
+                        <label>البريد الإلكتروني :</label>
                         <input type="email" placeholder="client@domain.sa">
                     </div>
 
                     <div>
-                        <label>نوع الخدمة المطلوبة</label>
+                        <label>نوع الخدمة المطلوبة :</label>
                         <select>
                             <option>نقل سكني VIP (فلل وشقق فاخرة)</option>
                             <option>نقل مكاتب ومقرات أعمال</option>
@@ -66,7 +65,7 @@
                     </div>
 
                     <div>
-                        <label>مدينة الانطلاق</label>
+                        <label>مدينة الانطلاق :</label>
                         <select>
                             <option>الرياض</option>
                             <option>جدة</option>
@@ -76,7 +75,7 @@
                     </div>
 
                     <div>
-                        <label>الوجهة المقصودة</label>
+                        <label>الوجهة المقصودة :</label>
                         <select>
                             <option>الرياض (نقل داخلي)</option>
                             <option>جدة</option>
@@ -87,7 +86,7 @@
                     </div>
 
                     <div>
-                        <label>تفاصيل الاستفسار أو متطلبات إضافية</label>
+                        <label>تفاصيل الاستفسار أو متطلبات إضافية :</label>
                         <textarea rows="4" placeholder="اكتب أية تفاصيل تفضل مشاركتها (مثل تاريخ الانتقال المتوقع، طوابق المبنى، وجود مصعد، قطع تتطلب فكاً وتركيباً معقداً)..."></textarea>
                     </div>
 
@@ -97,66 +96,7 @@
                 </form>
             </section>
 
-            <!-- بطاقات التواصل المباشر والمقرات -->
-            <aside>
-                <!-- الخط الموحد -->
-                <section>
-                    <p>الخط الموحد السريع - متاح الآن</p>
-                    <h3>مركز العمليات وخدمة العملاء</h3>
-                    <p>800 124 7744</p>
-                    <p>دعم واستجابة فورية 24/7 • مكالمة مجانية لكافة الشبكات</p>
-                </section>
-
-                <!-- ساعات العمل والبريد -->
-                <section>
-                    <h3>ساعات العمل والتشغيل</h3>
-                    <p>جاهزية النقل والخدمات اللوجستية الميدانية</p>
-                    <ul>
-                        <li>فرق النقل والتنفيذ الميداني: 24 ساعة / طوال أيام الأسبوع</li>
-                        <li>المكاتب الإدارية والاستشارات: الأحد – الخميس: 8:00 ص – 7:00 م</li>
-                    </ul>
-
-                    <h3>البريد الإلكتروني المباشر</h3>
-                    <p>للاستفسارات الرسمية وعقود الشركات والمؤسسات</p>
-                    <p>concierge@swiftshift.sa</p>
-                    <p>support@swiftshift.sa</p>
-                </section>
-
-                <!-- المقرات الميدانية الرئيسية -->
-                <section>
-                    <h3>المقرات الميدانية الرئيسية</h3>
-
-                    <article>
-                        <h4>فرع الرياض (المقر العام) - العاصمة</h4>
-                        <p>طريق الملك فهد، حي الملقا، برج سويفتشيفت للأعمال، الطابق 14</p>
-                        <p>رمز بريدي: 13524</p>
-                        <a href="#location-map">عرض على الخريطة</a>
-                    </article>
-
-                    <article>
-                        <h4>فرع الغربية (جدة) - المنطقة الغربية</h4>
-                        <p>طريق الأمير سلطان، حي الروضة، مجمع الأندلس التجاري واللوجستي</p>
-                        <p>رمز بريدي: 23432</p>
-                        <a href="#location-map">عرض على الخريطة</a>
-                    </article>
-                </section>
-            </aside>
-        </section>
-
-        <section id="location-map">
-            <p>الوصول الميداني</p>
-            <h2>مراكز التوزيع والتحكم اللوجستي</h2>
-            <p>تستقبل مراكزنا العملاء لمعاينة آليات التغليف وتنسيق الشحنات الخاصة وتخزين الممتلكات في غرف مبردة ومؤمنة بالكامل.</p>
-
-            <figure>
-                <img src="../assets/images/map-riyadh.png" alt="المقر اللوجستي الرئيسي - الرياض">
-                <figcaption>
-                    <h3>المقر اللوجستي الرئيسي - الرياض</h3>
-                    <p>حي الملقا - طريق الملك فهد</p>
-                    <p>مساحات استقبال مخصصة، مواقف خاصة للعملاء، وغرف عرض لعينات صناديق الحماية والتغليف المصفح.</p>
-                    <a href="https://maps.google.com" target="_blank">فتح في خرائط Google</a>
-                </figcaption>
-            </figure>
+          
         </section>
 
         <section>
